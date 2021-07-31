@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>weatherforecast</title>
+    <meta charset="utf-8">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Weather Application</h1>
+        <form id="cityForm" class="form-inline">
+            <input type="text" class="form-control col-md-3" id="inputCity" placeholder="Choose a city">
+            <select id="weekDays">
+                <option value="1">1 Day</option>
+                <option value="2">2 Days</option>
+                <option value="3">3 Days</option>
+                <option value="4">4 Days</option>
+                <option value="5">5 Days</option>
+                <option value="6">6 Days</option>
+                <option value="7">7 Days</option>
+            </select>
+            <button class="btn btn-primary col-md-1" id="btn"> Validation </button>
+            </form>
+        <div class="block">
+            <ul id="on_screen" class="row">       
+            </ul>
+    </div>  
+</div>  
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./static/js/app.js"></script>
+
+</body>
+</html>
